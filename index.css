@@ -441,12 +441,12 @@ h5 {
   align-items: center;
   overflow: hidden;
   transition: all 4s;
-  box-shadow: 5px 5px 16px grey inset;
+  box-shadow: 5px 5px 16px grey;
   /* border: 4px solid red; */
 }
 .videot {
-  width: 90%;
-  height: 93%;
+  width: 95%;
+  height: 97%;
   transition: all 0.5s;
   overflow: hidden;
   border-radius: 1.5rem;
@@ -565,4 +565,7 @@ footer {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+.mainfooter .nav_main .bclose {
+  display: none;
 }

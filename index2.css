@@ -1,5 +1,4 @@
 @media screen and (max-width: 780px) {
-
   /* csss  nav menu  */
   .top_menu {
     flex-direction: column;
@@ -114,15 +113,26 @@
   .imgmain {
     display: flex;
     flex-wrap: wrap;
-    max-height: 1050px;
+    height: 1350px;
+    width:100%;
     /* max-width: 250px; */
   }
   .imgcont1 {
     height: 50%;
+    width:100%;
+    margin: 0;
     /* min-height: 500px; */
+  }
+  .imginner{
+    width:100%;
   }
   .imgcont2 {
     display: none;
+  }
+  .imggrow{
+    width: 90%;
+    height:95%;
+    /* min-height:450px; */
   }
   .sec01 {
     padding: 1rem;
@@ -151,12 +161,12 @@
     flex-wrap: wrap;
   }
   .sec4vid {
-    min-width: 40%;
+    min-width: 96%;
     margin-bottom: 15px;
   }
   footer {
-    margin-bottom: 3rem;
-    height: 160vh;
+    margin-bottom: 0rem;
+    height: 1040px;
   }
   .mainfooter .nav_main {
     height: 160vh;
@@ -168,7 +178,7 @@
   }
   .mainfooter .nav_topitems {
     /* color:white;/ */
-    height: 200vh;
+    height: 600px;
   }
   .mainfooter .address .country,
   .mainfooter .address .phone {
