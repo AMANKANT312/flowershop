@@ -150,16 +150,18 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* border: 5px solid yellow; */
+  /* border: 5px solid yellow;
+  \ */
   margin: 0 auto;
   /* flex-direction: column; */
-  justify-content: space-between;
-  align-items: center;
+  justify-content:space-around;
+  align-items:center;
+  padding: 2rem;
 }
 .abus_review {
   display: flex;
   /* flex-wrap: wrap; */
-  height: 35%;
+  height: 30%;
   /* border: 2px solid red; */
   /* justify-content: space-evenly; */
   align-items: center;
@@ -185,15 +187,14 @@
 }
 .review_img {
   height: 80px;
-  width: 80px;
-  transition: all 0.5s;
+  width: 85px;
+
 }
 .abus_review p {
-  /* font-size: 1rem; */
+  font-size: 1.05rem;
   margin-bottom: 0;
 }
-.abus_review:hover {
-}
+
 /* .abus_review:hover .review_img{
   height:85px;
   width:85px;
