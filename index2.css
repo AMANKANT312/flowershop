@@ -188,6 +188,9 @@
   .mainfooter .address .phone {
     display: block;
   }
+  .product_card_container{
+    width:90%;
+  }
 }
 
 @media screen and (max-width: 1100px) {
