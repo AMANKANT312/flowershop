@@ -6,7 +6,6 @@
     Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol;
 }
-/* font-family: Univers LT Std,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; */
 
 /* //////////navbar css////// */
 .nav_main {
@@ -547,9 +546,6 @@ h5 {
   height: 100%;
   border-radius: 2rem;
   top: 0;
-  /* background-color: rgba(0, 0, 0, 0.285); */
-  /* border: 5px solid red; */
-  /* backdrop-filter: blur(1px); */
 }
 .sec01content h1 {
   padding: 1rem;
@@ -592,48 +588,23 @@ footer {
 }
 .product_cardmain {
   width: 30%;
-  min-width: 240px;
+  min-width: 140px;
   display: flex;
   justify-content: center;
-  /* border: 2px solid green; */
+  /* border: 2px solid blue; */
 }
 .productcard {
-  min-width: 240px;
-  width: 70%;
+  /* min-width: 240px; */
+  width: 80%;
   height: 350px;
   margin: 1rem auto;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba(8, 0, 0, 0.661);
   position: relative;
-  transition: all 5s;
-  /* background-color: green; */
-  /* padding: 0.5rem; */
-  /* background: linear-gradient(90deg in oklab, blue, red); */
+  transition: all 1s;
   animation: borderchange 5s linear infinite;
 }
-/* @keyframes borderchange {
-  0% {
-    background:linear-gradient(90deg, blue, red,green,white,yellow);
-    background-color: red;
-  }
-  25% {
-    background-color: blue;
-     background:linear-gradient(180deg, blue, red,green,white,yellow);
-  }
-  50% {
-    background-color: yellow;
-     background:linear-gradient(270deg , blue, red,green,white,yellow);
-  }
-  75% {
-    background-color: yellow;
-     background:linear-gradient(0deg, blue, red,green,white,yellow);
-  }
-  100% {
-    background-color: yellow;
-     background:linear-gradient(90deg, blue, red,green,white,yellow);
-  }
-} */
 .productcard .imgcontainer {
   width: 100%;
   height: 70%;
@@ -667,12 +638,7 @@ footer {
   /* border: 2px solid red; */
   justify-content: space-evenly;
 }
-/* .productcard .textcontainer .buynow{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  border:2px solid red;
-} */
+
 .productcard .textcontainer .buynow button {
   all: unset;
   outline: none;
@@ -691,7 +657,6 @@ footer {
   background-color: #451314;
   background-color: rgb(48, 63, 78);
   color: white;
-  /* color:black; */
 }
 .productcard .textcontainer .price .mprice {
   text-decoration: line-through;
@@ -745,12 +710,13 @@ footer {
   width: 60%;
   height: 75%;
   border-radius: 2rem;
+  /* border:2px solid orange; */
   overflow: hidden;
-  /* border: 2px solid orange; */
 }
 .image_container {
   width: 100%;
   height: 100%;
+  /* border:2px solid greenyellow; */
   position: relative;
 }
 .bimage {
@@ -791,13 +757,11 @@ footer {
   box-shadow: 0px 0px 10px grey;
 }
 .product_textcontent {
-  /* border: 2px solid green; */
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  /* padding:0 3rem; */
 }
 .product_detailtext {
   height: 70%;
@@ -805,7 +769,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* border:2px solid yellow; */
 }
 .product_textcontent h3 {
   margin: 1rem 0;
@@ -826,13 +789,10 @@ footer {
   align-items: center;
 }
 .product_textcontent .quantity p:nth-child(2) {
-  /* border-left: 0px solid black; */
   border-right: 0px;
-  /* color:red; */
 }
 .product_detailtext p {
   font-size: 1.2rem;
-  /* margin-top: 1rem; */
 }
 .product_detailtext button {
   all: unset;
@@ -842,7 +802,7 @@ footer {
   display: inline-block;
   display: flex;
   justify-content: center;
-  width: 23%;
+  width: 80px;
   padding: 0.8rem 1rem;
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -856,15 +816,18 @@ footer {
   margin-top: 2rem;
   font-size: 1.1rem;
 }
-.product_cardmain a{
+.product_cardmain a {
   all: unset;
+  width: 100%;
+}
+.smpabout_para {
+  display: none;
 }
 /* contact page styling starts here  */
 .contact_page {
   margin-top: 80px;
   width: 100%;
-  height: 90vh;
-  /* border: 2px solid green; */
+  height: 80vh;
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
@@ -873,7 +836,7 @@ footer {
 .contact_page_main {
   width: 70%;
   height: 80%;
-  /* border:2px solid blue; */
+
   display: flex;
   overflow: hidden;
   border-radius: 2rem;
@@ -934,6 +897,8 @@ footer {
   border-radius: 1rem;
   padding: 0.4rem 1rem;
   font-weight: 600;
+  width: 77%;
+  font-size: 1.3rem;
   border: none;
   outline: none;
 }
