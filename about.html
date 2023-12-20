@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./index2.css" />
     <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./index2.css" />
     <title>About page</title>
   </head>
   <body>
@@ -242,7 +243,7 @@
       <div class="abus_main">
         <div class="abus_main_banner">
           <div class="abus_container">
-            <h1>We Believe In <span>Everyone</span> Having A Say</h1>
+            <h1>We Believe In <span id="about_banner"></span> Having A Say</h1>
           </div>
         </div>
         <!-- <div class="abus_main_strip">
@@ -357,7 +358,7 @@
         </div>
       </div>
     </div>
-    <!-- subscription and footer from home page  -->
+    <!-- subscription and footer from home page   -->
     <div
       class="sec3"
       data-aos="fade-up"
@@ -523,10 +524,30 @@
       </div>
     </footer>
     <!-- subscription and footer from home page  end -->
+    <script>
+      function Open() {
+        document.querySelector(".nav_main").classList.remove("dnone");
+      }
+      function Close() {
+        document.querySelector(".nav_main").classList.add("dnone");
+      }
+      $(".carousel").carousel({
+        interval: 6000,
+      });
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
         delay: 200,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#about_banner", {
+        strings: ["Everyone"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
       });
     </script>
   </body>
